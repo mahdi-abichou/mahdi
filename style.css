@@ -1,0 +1,57 @@
+body{ 
+    background-image: url("https://media1.giphy.com/media/3o6vXTpomeZEyxufGU/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+.move-counter{
+    
+        color: white;
+        position: fixed;
+        right: 0%;
+        top: 0%;
+        font-size: xx-large;
+    
+} 
+.h1st{
+    color: blue;
+}
+.cards-container{ 
+    display: grid; 
+    grid-template-rows: 125px 125px 125px; 
+    grid-template-columns: 200px 200px 200px 200px; 
+    grid-gap: 20px 10px; 
+    place-items: center; 
+} 
+  
+.heading-container{ 
+    text-align: center; 
+} 
+  
+  
+.card{ 
+    display: flex; 
+    align-items: center; 
+    position: relative;  
+} 
+  
+.outline-image{ 
+    position: absolute; 
+   
+} 
+
+.toggled .card-image {  
+    transform: rotateY(0deg);  
+    transition-delay: 0s;  
+}  
+
+  .outline-image{ 
+        height: 100px; 
+        width: 100px; 
+    } 
+.card-image{ 
+        height: 100px; 
+        width: 100px; 
+    }
